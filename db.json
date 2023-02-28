@@ -1,73 +1,74 @@
 {
-  "users": [],
-  "blogs": [
-    {
-      "id" : 1,
-      "username": "coreyschafer",
-      "title": "Be Present",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-      "category" : "Entertainment",
-      "date" : "2017-06-01",
-      "likes" : 24,
-      "comments" : [
-        {
-          "username" : "Jane", 
-          "content" : "Good One"
-        }, 
-        {
-          "username" : "Bob", 
-          "content" : "Loved It!"
-        }
-      ]
-    }
-  ],
-  "companies": [
-    {
-      "id" : 1,
-      "company_logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
-      "company_name": "HDFC Bank",
-      "company_type": "Bank",
-      "stock_exchange": "NSE",
-      "total_shares": 50000,
-      "cost_per_share": 4210,
-      "price_action": 12
-    },
-    {
-      "id" : 2,
-      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
-      "company_name": "Reliance Industries",
-      "company_type": "Oil",
-      "stock_exchange": "BSE",
-      "total_shares": 20000,
-      "cost_per_share": 2132,
-      "price_action": 4
-    }
-  ],
-  "quize": [],
-  "jobs": [
+  "products": [
     {
       "id": 1,
-      "company": "Ellette",
-      "postedAt": "2021-03-30",
-      "city": "Gangtok",
-      "location": "American Samoa",
-      "role": "Frontend",
-      "level": "Junior",
-      "contract": "Full Time",
-      "position": " Backend Developer",
-      "language": "Java"
+      "name": "Shoe 1",
+      "image": "https://images.pexels.com/photos/3281608/pexels-photo-3281608.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 100,
+      "category": "Sneakers"
     },
     {
       "id": 2,
-      "company": "Jinny",
-      "postedAt": "2021-09-09",
-      "city": "Ludhiana",
-      "location": "Belgium",
-      "role": "FullStack",
-      "level": "Junior",
-      "contract": "Full Time",
-      "position": "Junior Frontend Developer",
-      "language": "Java"
+      "name": "Shoe 2",
+      "image": "https://images.pexels.com/photos/9993286/pexels-photo-9993286.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 101,
+      "category": "Loafers"
+    },
+    {
+      "id": 3,
+      "name": "Shoe 3",
+      "image": "https://images.pexels.com/photos/8378567/pexels-photo-8378567.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 102,
+      "category": "Canvas"
+    },
+    {
+      "id": 4,
+      "name": "Shoe 4",
+      "image": "https://images.pexels.com/photos/5710085/pexels-photo-5710085.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 103,
+      "category": "Boots"
+    },
+    {
+      "id": 5,
+      "name": "Shoe 5",
+      "image": "https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 104,
+      "category": "Sneakers"
+    },
+    {
+      "id": 6,
+      "name": "Watch 1",
+      "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 105,
+      "category": "Analog"
+    },
+    {
+      "id": 7,
+      "name": "Watch 2",
+      "image": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 106,
+      "category": "Chronograph"
+    },
+    {
+      "id": 8,
+      "name": "Watch 3",
+      "image": "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 107,
+      "category": "Analog"
+    },
+    {
+      "id": 9,
+      "name": "Watch 4",
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 108,
+      "category": "Digital"
+    },
+    {
+      "id": 10,
+      "name": "Watch 5",
+      "image": "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "price": 109,
+      "category": "Chronograph"
     }
   ]
 }
